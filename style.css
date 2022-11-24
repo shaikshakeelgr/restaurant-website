@@ -1,0 +1,213 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: rgb(251, 245, 245);
+}
+
+#zemoso{
+    text-align: center;
+    background-color: #ba46145f;
+    font-size: 35px;
+    color: #ffffff;
+}
+
+#resto{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.headings{
+    text-align: center;
+}
+#table{
+    height:auto;
+    width: 35% ;
+    border-right: 2px solid rgb(218, 209, 209);
+}
+
+.tables{
+    padding: 0px;
+    border:2px solid #bbb7b7;
+    font-size: 25px;
+    cursor: pointer;
+    margin-bottom: 25px ;
+    border-radius: 25px;
+    padding-left: 25px;
+    margin-right: 25px;
+
+}
+
+#tablelist :hover{
+    background-color: #e8bf2d;
+}
+
+.tables li{
+    font-size: 18px;
+    
+}
+#menu{
+    height:auto;
+    width: 65%;
+    border-left: 2px solid black;
+}
+
+.display
+{
+    margin-inline: 80px;
+    margin-bottom: 25px;
+}
+#searchbar{
+    width: 100%;
+    background-color: rgb(239, 237, 233);
+    border-radius: 15px;
+    border: 2px solid #555555;
+}
+
+ol{
+    list-style-type: none;
+}
+li{
+   margin-block: 15px;
+    
+}
+.fooditems{
+    font-size: 25px;
+}   
+
+
+.Food{
+    border: 2px solid #bbb7b7;
+    margin-right: 25px;
+    margin-bottom: 25px;
+    padding-inline: 25px;
+    border-radius: 25px;
+}
+
+#tablesearch{
+    width: 100%;
+    background-color: rgb(241, 238, 233);
+    border-radius: 15px;
+    border: 2px solid #555555;
+}
+
+
+#t1,#t2, #t3, #t4{
+    display:none;
+    position: fixed;
+    left: 10%;
+    top:30%;
+    z-index:9;
+    border:1px solid #555555;
+    background-color: #ffffff;
+    width:auto;
+    height:40%;
+}
+
+.td1{
+    width: 50px;
+    font-size: 18px;
+   
+}
+.td2{
+    width: 170px;
+    font-size: 18px;
+   
+}
+
+.td3{
+    width: 50px;
+    font-size: 18px;
+}
+
+
+.td4{
+    width: 70px;
+    font-size: 18px;
+}
+.del{
+    width: 20px;
+    height: auto;
+    cursor: pointer;
+    align-content: center;
+    margin-right: 35px;
+}
+
+.abc{
+    display:flex;
+    justify-content:flex-start;
+    
+}
+
+.odiv{
+    background-color: rgb(82, 82, 162);
+    font-size: 18px;
+    color:white;
+    padding-top: 8px;
+    height: 35px; 
+    padding-left: 5px;
+}
+
+.tabbtn{
+    z-index: 999;
+    top:5px;
+    right:10px;
+    color: white ;
+    border: #ffffff;
+    background-color: rgb(82, 82, 162);
+    position: absolute;
+    cursor: pointer;
+}
+
+.t{
+    display: block;
+}
+
+.totamt{
+    text-align: center;
+
+}
+
+.tot{
+    text-align: center;
+}
+
+.genbill{
+    cursor:pointer;
+    position:absolute;
+    bottom: 2%;
+    right: 2%;
+    float:inline-end;
+    width: auto;
+}
+
+.Sno{
+    text-align: center;
+    width: 55px;
+}
+
+.item{
+    text-align: center;
+    width: 175px;
+}
+
+.input{
+    width: 25px;
+}
+
+.qty{
+    width: 75px;
+    text-align: center;
+}
+
+.price{
+    width: 55px;
+    text-align: center;
+}
+
+.delete{
+    width: 55px;
+    text-align: center;
+
+}

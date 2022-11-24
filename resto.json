@@ -1,0 +1,30 @@
+[
+    {
+        "name":"Chicken Biryani",
+        "price":125.00   
+    },
+    {
+        "name":"French Fries",
+        "price":105.00
+    },
+    {
+        "name":"Chicken Mandi",
+        "price":420.00
+    },
+    {
+        "name":"Veg Noodels",
+        "price":75.00
+    },
+    {
+        "name":"Egg Noodels",
+        "price": 80.00
+    },
+    {
+        "name":"Ice Cream",
+        "price":60.00
+    },
+    {
+        "name":"Tea",
+        "price": 30.00 
+    }
+]

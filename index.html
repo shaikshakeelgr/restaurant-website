@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="zemoso">
+        ZEMOSO RESTAURANT
+    </div>
+    <div id="resto">
+        <div id="table">
+                <h1 class="headings">Tables</h1>
+                <div id="drag">
+                    <div class="display">
+                        <input id="tablesearch" type="text" onkeyup="searchtable()"  placeholder="Tables" >
+                    </div>
+                    
+                    <ol id="tablelist"></ol>
+                    
+                </div>
+                    
+        </div>
+        <div id="menu">
+            <h1 class="headings">Menu</h1>
+            <div class="drag">
+                <div class="display">
+                    <input id="searchbar" type="text" onkeyup="searchfood()"  placeholder="SearchFood.." >
+                </div>
+                
+                <div>
+                    <ol id="foodlist"></ol>
+                </div>
+                
+            </div>
+        </div>
+    
+    </div>
+    <script src="resto.js"></script>
+
+</body>
+</html>
